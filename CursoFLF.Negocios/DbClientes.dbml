@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CursoFLF" Class="DbClientesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\Projects;Initial Catalog=CursoFLF;Integrated Security=True;Connect Timeout=30" SettingsObjectName="CursoFLF.Negocios.Properties.Settings" SettingsPropertyName="CursoFLFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tb_Clientes" Member="Clientes">
+    <Type Name="Clientes">
+      <Column Name="Cli_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Cli_Nome" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Endereco" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Bairro" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Estado" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Telefone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Celular" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cli_Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
